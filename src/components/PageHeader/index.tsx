@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import logoImg from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
-const PageHeader = () => {
+interface PageHeaderProps {
+  title: string;
+}
+
+const PageHeader: React.FC<PageHeaderProps> = () => {
   return (
     <header className="page-header">
         <div className="top-bar-container">
