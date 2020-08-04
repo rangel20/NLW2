@@ -75,6 +75,11 @@
   background: var(--color-secundary-dark);
 }
 
+/* Adicionado aqui intencionalmente. */
+.teacher-item footer button img {
+  width: 2rem;
+}
+
 @media (min-width: 700px) {
   .teacher-item header,
   .teacher-item footer {
