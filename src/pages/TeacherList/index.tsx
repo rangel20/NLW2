@@ -1,9 +1,12 @@
 import React from 'react';
+import PageHeader from '../../components/PageHeader';
+
+import './styles.css';
 
 const TeacherList = () => {
   return (
-    <div>
-      TeacherList
+    <div id="page-teacher-list" className="container">
+      <PageHeader />
     </div>
   );
 };
