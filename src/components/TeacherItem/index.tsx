@@ -36,10 +36,10 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
           Preço/hora
           <strong>RS {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={whatsappIcon} alt="WhatsApp"/>
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
